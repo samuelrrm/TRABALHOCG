@@ -1,12 +1,12 @@
 Tarefas
-1- (Pontos: 1,0) Implementar o código do botão de limpeza de tela ("vasourinha").
-2- (Pontos: 1,0) Implementar a classe Quadrado. Todo objeto desenhavel 
+1- (Pontos: 1,0) Implementar o código do botão de limpeza de tela ("vasourinha"). ok (automatico)
+2- (Pontos: 1,0) Implementar a classe Quadrado. Todo objeto desenhavel (nao consegui fazer)
    deve ter um metodo correspondente na classe Desenhista. 
-3- (Pontos: 2,0) Implementar os metodos da interface Selecionavel para os objetos 
+3- (Pontos: 2,0) Implementar os metodos da interface Selecionavel para os objetos (nao tentei fazer)
    Quadrado e Poligono. Usar o toString padrão do Eclipse 
    para retornar mensagens de seleção de objetos.
 4- (Pontos: 6,0)  Implementar a circunferência como um polígono com N retas
-   perpendiculares a um ponto central. 
+   perpendiculares a um ponto central. (foda)
 
 ATENÇÃO: use o arquivo Geometrico.jude (dentro da pasta src) contém
 os detalhes do modelo. O código é implementado a partir deste modelo.

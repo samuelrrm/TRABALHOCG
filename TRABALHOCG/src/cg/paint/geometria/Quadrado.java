@@ -16,5 +16,7 @@ public class Quadrado extends Retangulo{
 		// TODO Auto-generated method stub
 		super.desenha(graphics2d, caneta);
 	}
+	
+	
 
 }

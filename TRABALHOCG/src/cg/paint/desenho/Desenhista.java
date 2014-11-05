@@ -6,6 +6,7 @@ import java.awt.Graphics2D;
 import cg.paint.geometria.Circuferencia;
 import cg.paint.geometria.Geometria;
 import cg.paint.geometria.Linha;
+import cg.paint.geometria.Quadrado;
 import cg.paint.geometria.Retangulo;
 import cg.paint.pena.Caneta;
 
@@ -28,6 +29,15 @@ public class Desenhista {
 //		retangulo.drawCoords((Graphics2D)g);
 		return retangulo;
     }    
+    
+ // CHAMADA RETANGULO
+    public static Geometria desenhaQuadrado(int x0, int y0, int x1, int y1, Graphics g, Caneta caneta) {
+		Geometria quadrado= new Quadrado(x0, y0, x1, y1);
+		quadrado.desenha((Graphics2D)g, caneta);
+//		retangulo.drawCoords((Graphics2D)g);
+		return quadrado;
+    }    
+    
     
 	// MIDPOINT CIRCLE
     public static Geometria desenhaCircunferencia(int x0, int y0, int x1, int y1, Graphics g, Caneta caneta) {
